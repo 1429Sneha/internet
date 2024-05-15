@@ -22,4 +22,4 @@ const logIn = async () => {
     }
     let { surname } = await res.json();
     welcome.textContent = surname;
-}
+} 
